@@ -36,6 +36,7 @@ cargo build -r
 | src/IO              | Exemplos lendo e gravando streams (console e arquivo)    |
 | guess-game-app      | Projeto de exemplo com Cargo                             |
 | src/Iterator        | Exemplos de uso do Iterator                              |
+| src/Closure         | Exemplos de uso do funções closure/inline                |
 
 ## Package Manager
 
