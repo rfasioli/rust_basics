@@ -33,3 +33,33 @@ cargo build -r
 | src/Tupples         | Exemplos com tupples                                     |
 | src/ErrorHandling   | Tratando erros                                           |
 | src/Generics        | Exemplos com generics                                    |
+| src/IO              | Exemplos lendo e gravando streams (console e arquivo)    |
+| guess-game-app      | Projeto de exemplo com Cargo                             |
+
+## Package Manager
+
+> **Definições:**
+> - **Cargo** é o gerenciador de pacotes para o RUST.
+> - **Crate** é uma unidade de compilação para o RUST.
+> - **Module** é o agrupamento lógico do código em RUST.
+
+| **Comandos comuns** | Descrição                      |
+|---------------------|--------------------------------|
+| `cargo build`       | compila um código RUST         |
+| `cargo check`       | analisa o projeto              |
+| `cargo run`         | compila e executa o rc/main.rs |
+| `cargo clean`       | remove artefatos da compilação |
+| `cargo update`      | atualiza dependencias          |
+| `cargo new`         | cria um novo projeto           |
+
+### Exemplos de uso
+``` bash
+# Create a binary crate
+cargo new project_name --bin
+
+# Create a library crate
+cargo new project_name --lib
+
+# To check the current version of cargo, execute the following command −
+cargo --version
+```
