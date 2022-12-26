@@ -1,6 +1,10 @@
 # rust_basics
 studing rust programing language basic concepts
 
+> References: 
+> - https://www.tutorialspoint.com/rust
+> - https://learnxinyminutes.com/docs/rust/
+
 ## Tecnologias
 - Rust
 
@@ -26,4 +30,6 @@ cargo build -r
 | src/Ownership       | Alocação e apontamentos de memória (Ownership/Borrowing) |
 | src/Slices          | Apontamento com Slices                                   |
 | src/Structure       | Exemplos com Estrutura de dados                          |
-| src/Tupples         | Exemp |
+| src/Tupples         | Exemplos com tupples                                     |
+| src/ErrorHandling   | Tratando erros                                           |
+| src/Generics        | Exemplos com generics                                    |
