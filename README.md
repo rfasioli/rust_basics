@@ -63,3 +63,12 @@ cargo new project_name --lib
 # To check the current version of cargo, execute the following command −
 cargo --version
 ```
+
+### Problemas comuns
+
+- Ao executar o comando `cargo build` apresenta a mensagem *"Blocking waiting for file lock on package cache"*. Pode ocorrer por uma execução paralela, neste caso é só aguardar o término, ou por uma falha em um build anterior. Para este caso basta executar os comandos:
+```
+rm ~/.cargo/.package-cache
+rm -rf ~/.cargo/registry/cache/*
+rm -rf ~/.cargo/registry/index/*
+```
