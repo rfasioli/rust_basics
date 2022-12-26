@@ -1,0 +1,1 @@
+/home/rfasioli/Fontes/Rust/TutorialsPoint/src/Modules/movie-app/movies_lib_test/target/debug/movies_lib_test: /home/rfasioli/Fontes/Rust/TutorialsPoint/src/Modules/movie-app/movies_lib/src/lib.rs /home/rfasioli/Fontes/Rust/TutorialsPoint/src/Modules/movie-app/movies_lib/src/movies.rs /home/rfasioli/Fontes/Rust/TutorialsPoint/src/Modules/movie-app/movies_lib_test/src/main.rs
