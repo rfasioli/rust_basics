@@ -35,6 +35,7 @@ cargo build -r
 | src/Generics        | Exemplos com generics                                    |
 | src/IO              | Exemplos lendo e gravando streams (console e arquivo)    |
 | guess-game-app      | Projeto de exemplo com Cargo                             |
+| src/Iterator        | Exemplos de uso do Iterator                              |
 
 ## Package Manager
 
